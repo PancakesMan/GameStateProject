@@ -1,0 +1,36 @@
+﻿  DLList-tests.cpp
+  DynamicArray-tests.cpp
+C:\Users\Eric\Documents\GitHub\Repositories\GameStateProject\Project2D\DynamicArray.h(33): warning C4018: '<': signed/unsigned mismatch
+  C:\Users\Eric\Documents\GitHub\Repositories\GameStateProject\Project2D\DynamicArray.h(28): note: while compiling class template member function 'void DynamicArray<int>::operator =(const DynamicArray<int> &)'
+  DynamicArray-tests.cpp(32): note: see reference to function template instantiation 'void DynamicArray<int>::operator =(const DynamicArray<int> &)' being compiled
+  DynamicArray-tests.cpp(5): note: see reference to class template instantiation 'DynamicArray<int>' being compiled
+C:\Users\Eric\Documents\GitHub\Repositories\GameStateProject\Project2D\DynamicArray.h(98): warning C4018: '<': signed/unsigned mismatch
+  C:\Users\Eric\Documents\GitHub\Repositories\GameStateProject\Project2D\DynamicArray.h(90): note: while compiling class template member function 'void DynamicArray<int>::expand(void)'
+  C:\Users\Eric\Documents\GitHub\Repositories\GameStateProject\Project2D\DynamicArray.h(46): note: see reference to function template instantiation 'void DynamicArray<int>::expand(void)' being compiled
+  Map-tests.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\DynamicArray.h(98): warning C4018: '<': signed/unsigned mismatch
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\DynamicArray.h(90): note: while compiling class template member function 'void DynamicArray<KeyValuePair<K,V>>::expand(void)'
+          with
+          [
+              K=std::string,
+              V=int
+          ]
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\DynamicArray.h(46): note: see reference to function template instantiation 'void DynamicArray<KeyValuePair<K,V>>::expand(void)' being compiled
+          with
+          [
+              K=std::string,
+              V=int
+          ]
+  C:\Users\Eric\Documents\GitHub\Repositories\GameStateProject\Project2D\Map.h(99): note: see reference to class template instantiation 'DynamicArray<KeyValuePair<K,V>>' being compiled
+          with
+          [
+              K=std::string,
+              V=int
+          ]
+  Map-tests.cpp(6): note: see reference to class template instantiation 'Map<std::string,int>' being compiled
+  Stack-tests.cpp
+  Generating code
+  All 5130 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ContainerUnitTests.vcxproj -> C:\Users\Eric\Documents\GitHub\Repositories\GameStateProject\Release\ContainerUnitTests.exe
+  ContainerUnitTests.vcxproj -> C:\Users\Eric\Documents\GitHub\Repositories\GameStateProject\Release\ContainerUnitTests.pdb (Full PDB)

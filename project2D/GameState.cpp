@@ -62,7 +62,6 @@ void GameState::update(float deltaTime)
 		highScore += bulletCount * 10;
 		if (gameLevel == 5) {
 			gameOver = true;
-			GameOverState::message = "CONGRATULATIONS! YOU WON!";
 		}
 		else loadLevel(Level(gameLevel * 5 + 10));
 	}
@@ -161,7 +160,6 @@ void GameState::render(aie::Renderer2D* renderer)
 	renderer->drawText(m_font.get(), levelText.c_str(), levelWidth / 2, app->getWindowHeight() - 30);
 
 	std::string bulletText = "Bullets: " + std::to_string(bulletCount);
-	//float bulletWidth = m_font.get()->getStringWidth(bulletText.c_str());
 	renderer->drawText(m_font.get(), bulletText.c_str(), app->getWindowWidth() - 150, app->getWindowHeight() - 30);
 
 	std::string scoreText = "Score: " + std::to_string(highScore);

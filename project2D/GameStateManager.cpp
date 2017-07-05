@@ -18,7 +18,7 @@ void GameStateManager::updateStates(float deltaTime)
 {
 	processCommands();
 
-	(*m_activeStates.back()).update(deltaTime);
+	(*m_activeStates.top()).update(deltaTime);
 	//for (auto iter = m_activeStates.begin(); iter != m_activeStates.end(); iter++)
 		//(*iter)->update(deltaTime);
 }
@@ -62,8 +62,8 @@ void GameStateManager::popState()
 
 IGameState* GameStateManager::getTopState()
 {
-	if (m_activeStates.Size() > 0)
-		return m_activeStates.back();
+	if (m_activeStates.count() > 0)
+		return m_activeStates.top();
 	return nullptr;
 }
 
@@ -106,13 +106,13 @@ void GameStateManager::processPushState(int id)
 {
 	auto iter = m_registeredStates.find(id);
 	if (iter != -1)
-		m_activeStates.AddToEnd(m_registeredStates[id]); // If the state exists, add it to the list of active states
+		m_activeStates.push(m_registeredStates[id]); // If the state exists, add it to the list of active states
 	else
 		assert((int)id && "State not found!"); // if not, crash
 }
 
 void GameStateManager::processPopState()
 {
-	if (m_activeStates.Size() > 0)
-		m_activeStates.RemoveFromEnd();
+	if (m_activeStates.count() > 0)
+		m_activeStates.pop();
 }

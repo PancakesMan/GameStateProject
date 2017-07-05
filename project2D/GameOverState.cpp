@@ -2,7 +2,6 @@
 #include <algorithm>
 
 int GameOverState::score = 0;
-std::string GameOverState::message = "GAME OVER";
 
 GameOverState::GameOverState(Application2D* _app) : IGameState(_app) {
 	//
@@ -23,10 +22,10 @@ void GameOverState::update(float deltaTime) {
 
 void GameOverState::render(aie::Renderer2D* renderer) {
 	std::shared_ptr<aie::Font> f1 = resources.getFont("./font/consolas.ttf", 50);
-	float t0w = f1.get()->getStringWidth(message.c_str());
-	float t0h = f1.get()->getStringHeight(message.c_str());
+	float t0w = f1.get()->getStringWidth("GAME OVER");
+	float t0h = f1.get()->getStringHeight("GAME OVER");
 
-	renderer->drawText(f1.get(), message.c_str(), app->getWindowWidth() / 2 - (t0w / 2), app->getWindowHeight() / 3 * 2);
+	renderer->drawText(f1.get(), "GAME OVER", app->getWindowWidth() / 2 - (t0w / 2), app->getWindowHeight() / 3 * 2);
 
 	std::string scoreMsg = "You got a score of: " + std::to_string(score);
 	float t1w = m_font.get()->getStringWidth(scoreMsg.c_str());

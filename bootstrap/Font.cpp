@@ -57,7 +57,12 @@ Font::Font(const char* trueTypeFontFile, unsigned short fontHeight)
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 
-		glTexStorage2D(GL_TEXTURE_2D, 1, GL_R8, m_textureWidth, m_textureHeight);
+		// My Development Machine doesn't support this function
+		//glTexStorage2D(GL_TEXTURE_2D, 1, GL_R8, m_textureWidth, m_textureHeight);
+
+		// Need to use this instead so I can run the game
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_R8, m_textureWidth, m_textureHeight, 0, GL_RED, GL_UNSIGNED_BYTE, nullptr);
+
 		glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, m_textureWidth, m_textureHeight, GL_RED, GL_UNSIGNED_BYTE, nullptr);
 
 		glBindBuffer(GL_PIXEL_UNPACK_BUFFER, 0);

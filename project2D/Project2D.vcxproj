@@ -113,6 +113,7 @@
     <ClInclude Include="Button.h" />
     <ClInclude Include="ControlsState.h" />
     <ClInclude Include="DLLExport.h" />
+    <ClInclude Include="DLList.h" />
     <ClInclude Include="DynamicArray.h" />
     <ClInclude Include="GameOverState.h" />
     <ClInclude Include="GameState.h" />
@@ -133,6 +134,7 @@
     <ClInclude Include="SplashState.h" />
     <ClInclude Include="RockSpawner.h" />
     <ClInclude Include="SpriteObject.h" />
+    <ClInclude Include="Stack.h" />
     <ClInclude Include="Tank.h" />
     <ClInclude Include="Vector2.h" />
     <ClInclude Include="Vector3.h" />

@@ -179,6 +179,12 @@
     <ClInclude Include="ScoreState.h">
       <Filter>Header Files\States</Filter>
     </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="DLList.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Library Include="MathsLib.lib">

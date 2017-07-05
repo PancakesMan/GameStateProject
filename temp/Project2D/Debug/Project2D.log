@@ -1,0 +1,149 @@
+﻿  Tank.cpp
+  SplashState.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\splashstate.cpp(26): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  ScoreState.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\scorestate.cpp(6): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\scorestate.cpp(47): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  SceneObject.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(98): warning C4018: '<': signed/unsigned mismatch
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(90): note: while compiling class template member function 'void DynamicArray<SceneObject *>::expand(void)'
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(46): note: see reference to function template instantiation 'void DynamicArray<SceneObject *>::expand(void)' being compiled
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\sceneobject.h(31): note: see reference to class template instantiation 'DynamicArray<SceneObject *>' being compiled
+  Rock.cpp
+  ResourceManager.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(98): warning C4018: '<': signed/unsigned mismatch
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(90): note: while compiling class template member function 'void DynamicArray<KeyValuePair<K,V>>::expand(void)'
+          with
+          [
+              K=std::pair<std::string,unsigned short>,
+              V=std::shared_ptr<aie::Font>
+          ]
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(46): note: see reference to function template instantiation 'void DynamicArray<KeyValuePair<K,V>>::expand(void)' being compiled
+          with
+          [
+              K=std::pair<std::string,unsigned short>,
+              V=std::shared_ptr<aie::Font>
+          ]
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\map.h(99): note: see reference to class template instantiation 'DynamicArray<KeyValuePair<K,V>>' being compiled
+          with
+          [
+              K=std::pair<std::string,unsigned short>,
+              V=std::shared_ptr<aie::Font>
+          ]
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\resourcemanager.h(32): note: see reference to class template instantiation 'Map<std::pair<std::string,unsigned short>,std::shared_ptr<aie::Font>>' being compiled
+  PauseState.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\pausestate.cpp(7): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  OBB.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\obb.cpp(15): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(98): warning C4018: '<': signed/unsigned mismatch
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(90): note: while compiling class template member function 'void DynamicArray<Vector2<float>>::expand(void)'
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(46): note: see reference to function template instantiation 'void DynamicArray<Vector2<float>>::expand(void)' being compiled
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\obb.cpp(79): note: see reference to class template instantiation 'DynamicArray<Vector2<float>>' being compiled
+  MenuState.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\menustate.cpp(7): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\menustate.cpp(8): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\menustate.cpp(9): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\menustate.cpp(10): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\menustate.cpp(39): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  main.cpp
+  IGameState.cpp
+  GameStateManager.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(98): warning C4018: '<': signed/unsigned mismatch
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(90): note: while compiling class template member function 'void DynamicArray<GameStateManager::Command>::expand(void)'
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(46): note: see reference to function template instantiation 'void DynamicArray<GameStateManager::Command>::expand(void)' being compiled
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\gamestatemanager.h(47): note: see reference to class template instantiation 'DynamicArray<GameStateManager::Command>' being compiled
+  GameState.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gamestate.cpp(6): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gamestate.cpp(97): warning C4018: '<': signed/unsigned mismatch
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gamestate.cpp(127): warning C4018: '<': signed/unsigned mismatch
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gamestate.cpp(152): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gamestate.cpp(160): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gamestate.cpp(163): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gamestate.cpp(167): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gamestate.cpp(172): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gamestate.cpp(184): warning C4018: '<': signed/unsigned mismatch
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gamestate.cpp(191): warning C4018: '<': signed/unsigned mismatch
+  GameOverState.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gameoverstate.cpp(28): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gameoverstate.cpp(34): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\gameoverstate.cpp(40): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  ControlsState.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\controlsstate.cpp(6): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\controlsstate.cpp(8): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\controlsstate.cpp(9): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\controlsstate.cpp(10): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\controlsstate.cpp(11): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\controlsstate.cpp(12): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\controlsstate.cpp(13): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\controlsstate.cpp(14): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\controlsstate.cpp(15): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\controlsstate.cpp(173): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(98): warning C4018: '<': signed/unsigned mismatch
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(90): note: while compiling class template member function 'void DynamicArray<KeyValuePair<K,V>>::expand(void)'
+          with
+          [
+              K=int,
+              V=std::string
+          ]
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(46): note: see reference to function template instantiation 'void DynamicArray<KeyValuePair<K,V>>::expand(void)' being compiled
+          with
+          [
+              K=int,
+              V=std::string
+          ]
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\map.h(99): note: see reference to class template instantiation 'DynamicArray<KeyValuePair<K,V>>' being compiled
+          with
+          [
+              K=int,
+              V=std::string
+          ]
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\controlsstate.h(25): note: see reference to class template instantiation 'Map<int,std::string>' being compiled
+  Button.cpp
+  Application2D.cpp
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\rockspawner.h(22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(33): warning C4018: '<': signed/unsigned mismatch
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(28): note: while compiling class template member function 'void DynamicArray<K>::operator =(const DynamicArray<K> &)'
+          with
+          [
+              K=int
+          ]
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\application2d.cpp(25): note: see reference to function template instantiation 'void DynamicArray<K>::operator =(const DynamicArray<K> &)' being compiled
+          with
+          [
+              K=int
+          ]
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\application2d.h(26): note: see reference to class template instantiation 'DynamicArray<K>' being compiled
+          with
+          [
+              K=int
+          ]
+c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(98): warning C4018: '<': signed/unsigned mismatch
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(90): note: while compiling class template member function 'void DynamicArray<K>::expand(void)'
+          with
+          [
+              K=int
+          ]
+  c:\users\eric\documents\github\repositories\gamestateproject\project2d\dynamicarray.h(46): note: see reference to function template instantiation 'void DynamicArray<K>::expand(void)' being compiled
+          with
+          [
+              K=int
+          ]
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Project2D.vcxproj -> C:\Users\Eric\Documents\GitHub\Repositories\GameStateProject\temp\Project2D\Debug\Project2D.exe
+  Project2D.vcxproj -> C:\Users\Eric\Documents\GitHub\Repositories\GameStateProject\temp\Project2D\Debug\Project2D.pdb (Full PDB)

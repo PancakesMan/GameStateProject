@@ -1,6 +1,6 @@
 #pragma once
-//#include <map>
 #include "Map.h"
+#include "Stack.h"
 #include <vector>
 #include "ResourceManager.h"
 
@@ -26,7 +26,8 @@ public:
 
 private:
 	Map<int, IGameState*> m_registeredStates;
-	DynamicArray<IGameState*> m_activeStates;
+	//DynamicArray<IGameState*> m_activeStates;
+	Stack<IGameState*> m_activeStates;
 
 	IGameState* getTopState();
 

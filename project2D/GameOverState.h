@@ -11,7 +11,6 @@ public:
 	virtual void render(aie::Renderer2D* renderer);
 
 	static int score;
-	static std::string message;
 private:
 	//
 };
